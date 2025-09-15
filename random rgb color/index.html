@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB Color Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    #colorBox {
+      width: 200px;
+      height: 200px;
+      border: 2px solid #000;
+      margin: 0 auto 20px;
+    }
+
+    #colorCode {
+      font-size: 18px;
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    #copyBtn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>RGB Color Generator</h1>
+
+  <div id="colorBox"></div>
+  <span id="colorCode">rgb(0, 0, 0)</span>
+
+  <div>
+    <button id="generateBtn">Generate New Color</button>
+    <button id="copyBtn">Copy Color Code</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

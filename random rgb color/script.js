@@ -29,4 +29,8 @@ const copyColorCode = () => {
 
 document.getElementById("copyBtn").addEventListener("click", copyColorCode);
 
-updateColor();
+function generateBtn() {
+
+    updateColor()
+    
+}
